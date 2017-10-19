@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+body {
+   background-image: url(https://static.pexels.com/photos/54584/graffiti-street-art-city-54584.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding-top: 30px;
+}
+
+.header {
+   position: absolute;
+   top: 40px;
+   left: 50%;
+   transform: translate(-50%);
+   height: 110px;
+   width: 300px; 
+   background-image: url(http://ivacontent.blob.core.windows.net/ivacomwp/wp-content/uploads/2014/09/Twitch_Logo.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.buttons {
+   position: absolute;
+   top: 180px;
+}
+
+.btn {
+   width: 100px;
+   box-shadow: 1px 2px 5px #2a2a2a;
+}
+
+#display {
+   position: absolute;
+   top: 260px;
+   padding-top: 15px;
+   padding-bottom: 100px;
+   background-color: transparent;
+}
+
+.logo {
+  border-radius: 2%;
+  margin-bottom: 15px;
+  width: 20%;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+#streaming {
+   position: absolute;
+   margin-top: -75px;
+   margin-left: -110px;
+   font-size: 24px;
+   text-shadow: 2px 2px 5px black;
+}
+
+.online {
+   color: lightgreen;
+}
+
+.offline {
+   color: tomato;
+}
+
+#name {
+   margin-top: -150px;
+   margin-left: -110px;
+   position: absolute;
+   color: #000000;
+   text-shadow: 1px 2px 5px white;
+   font-size: 60px;
+   font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#name:hover {
+   color: turquoise;
+   text-shadow: 2px 2px 5px black;
+}
+
+footer {
+   background-color: #212121;
+   color: #d1d1d1;
+   height: 36px;
+}
+
+footer p {
+   margin: 10px 0;
+}
+
+footer a {
+   color: #24b4b0;
+}
+  
+footer a:hover {
+   color: turquoise;
+   text-decoration: none;
+}
